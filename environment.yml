@@ -1,0 +1,11 @@
+name: TermPaperTECH2
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12.4 #Specific python version
+  - pandas=2.2.2 #Pandas for data-wrangling 
+  - matplotlib=3.8.4 #Matplotlib for plotting
+  - openpyxl=3.1.2 #Openpyxl in order to export to excel
+  - numpy=1.26.4 #Numpy if any need for array operations
+  - notebook  #Notebook for jupyter
